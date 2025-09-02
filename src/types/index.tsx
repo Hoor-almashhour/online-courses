@@ -5,7 +5,7 @@ export type Lesson = {
   title: string;
   duration: string;
   isPreview: boolean;
-  isLocked?: boolean;
+  isLocked: boolean;
 };
 
 export type CurriculumSection = {
