@@ -1,7 +1,7 @@
 
 
 export type Lesson = {
-  id?: number; 
+  id: number; 
   title: string;
   duration: string;
   isPreview: boolean;

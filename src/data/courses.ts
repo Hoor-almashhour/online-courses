@@ -29,11 +29,11 @@ export const mockCourses: Course[] = [
         title: "Lessons with video content",
         totalDuration: "45 Mins",
         lessons: [
-          { title: "Lessons with video content", duration: "12:30", isPreview: true , isLocked: false},
-          { title: "Lessons with video content", duration: "10:05", isPreview: true , isLocked: false},
-          { title: "Lessons with video content", duration: "2:25", isPreview: false , isLocked: false },
-          { title: "Lessons with video content", duration: "2:25", isPreview: true , isLocked: false },
-          { title: "Lessons with video content", duration: "2:25", isPreview: true , isLocked: true  },
+          {id:1, title: "Lessons with video content", duration: "12:30", isPreview: true , isLocked: false},
+          {id:2, title: "Lessons with video content", duration: "10:05", isPreview: true , isLocked: false},
+          { id:3,title: "Lessons with video content", duration: "2:25", isPreview: false , isLocked: false },
+          { id:4,title: "Lessons with video content", duration: "2:25", isPreview: true , isLocked: false },
+          {id:5, title: "Lessons with video content", duration: "2:25", isPreview: true , isLocked: true  },
         ],
       },
       {
@@ -41,9 +41,9 @@ export const mockCourses: Course[] = [
         title: "Lessons with video content",
         totalDuration: "45 Mins",
         lessons: [
-          { title: "Lessons with video content", duration: "12:30", isPreview: true , isLocked:  false },
-          { title: "Lessons with video content", duration: "10:05", isPreview: false , isLocked:  false  },
-          { title: "Lessons with video content", duration: "2:25", isPreview: true , isLocked: true },
+          {id:1, title: "Lessons with video content", duration: "12:30", isPreview: true , isLocked:  false },
+          {id:2, title: "Lessons with video content", duration: "10:05", isPreview: false , isLocked:  false  },
+          {id:3, title: "Lessons with video content", duration: "2:25", isPreview: true , isLocked: true },
         ],
       },
       {
@@ -51,9 +51,9 @@ export const mockCourses: Course[] = [
         title: "Lessons with video content",
         totalDuration: "45 Mins",
         lessons: [
-          { title: "Lessons with video content", duration: "12:30", isPreview: true , isLocked:  false  },
-          { title: "Lessons with video content", duration: "10:05", isPreview: false, isLocked:  false },
-          { title: "Lessons with video content", duration: "2:25", isPreview: true  , isLocked: true},
+          { id:1,title: "Lessons with video content", duration: "12:30", isPreview: true , isLocked:  false  },
+          { id:2,title: "Lessons with video content", duration: "10:05", isPreview: false, isLocked:  false },
+          {id:3, title: "Lessons with video content", duration: "2:25", isPreview: true  , isLocked: true},
         ],
       },
       {
@@ -61,9 +61,9 @@ export const mockCourses: Course[] = [
         title: "Lessons with video content",
         totalDuration: "45 Mins",
         lessons: [
-          { title: "Lessons with video content", duration: "12:30", isPreview: true , isLocked:  false },
-          { title: "Lessons with video content", duration: "10:05", isPreview: false , isLocked:  false },
-          { title: "Lessons with video content", duration: "2:25", isPreview: true , isLocked: true },
+          { id:1,title: "Lessons with video content", duration: "12:30", isPreview: true , isLocked:  false },
+          {id:2, title: "Lessons with video content", duration: "10:05", isPreview: false , isLocked:  false },
+          {id:3, title: "Lessons with video content", duration: "2:25", isPreview: true , isLocked: true },
         ],
       },
       {
@@ -71,9 +71,9 @@ export const mockCourses: Course[] = [
         title: "Lessons with video content",
         totalDuration: "45 Mins",
         lessons: [
-          { title: "Lessons with video content", duration: "12:30", isPreview: true , isLocked:  false  },
-          { title: "Lessons with video content", duration: "10:05", isPreview: false , isLocked:  false  },
-          { title: "Lessons with video content", duration: "2:25", isPreview: true  , isLocked: true},
+          { id:1,title: "Lessons with video content", duration: "12:30", isPreview: true , isLocked:  false  },
+          { id:2,title: "Lessons with video content", duration: "10:05", isPreview: false , isLocked:  false  },
+          { id:3,title: "Lessons with video content", duration: "2:25", isPreview: true  , isLocked: true},
         ],
       },
     ],
