@@ -16,8 +16,10 @@ export default function CourseDetails() {
 
   
   const courseId = typeof id === "string" ? parseInt(id, 10) : null;
-  const course = courseId ? courses.find((c) => c.id === courseId) : undefined;
-
+  const course = courseId 
+  ? (courses.find((c) => c.id === courseId) as Course | undefined)
+  : undefined ;
+  
   if (!course) {
     return <div className="text-center py-10">Course not found</div>;
   }
@@ -44,7 +46,7 @@ export default function CourseDetails() {
           <CourseTabs  
                 overview={course.overview}
                 curriculum={course.curriculum|| []} 
-                instructor={course.instructor ?? undefined}
+                instructor={course.instructor}
                 faqs={course.faqs ?? []}
                 reviews={course.reviews ?? []}
            />
