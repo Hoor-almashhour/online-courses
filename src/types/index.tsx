@@ -53,7 +53,7 @@ export interface Course {
   author?: string;
   overview?: string;
   curriculum?: CurriculumSection[];
-  Instructor?: Instructor; 
+  instructor?: Instructor; 
   faqs?: FAQ[];
   reviews?:CourseReview[];
   image: string;

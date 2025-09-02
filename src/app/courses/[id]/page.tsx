@@ -44,7 +44,7 @@ export default function CourseDetails() {
           <CourseTabs  
                 overview={course.overview}
                 curriculum={course.curriculum|| []} 
-                instructor={course.Instructor}
+                instructor={course.instructor}
                 faqs={course.faqs ?? []}
                 reviews={course.reviews ?? []}
            />

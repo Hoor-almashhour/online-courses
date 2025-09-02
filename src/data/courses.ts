@@ -77,7 +77,7 @@ export const mockCourses: Course[] = [
         ],
       },
     ],
-     Instructor:{
+     instructor:{
       id: 1,
       name: "ThimPress",
       bio: "LearnPress is a comprehensive WordPress LMS Plugin for WordPress. This is one of the best WordPress LMS Plugins which can be used to easily create & sell courses online.",
