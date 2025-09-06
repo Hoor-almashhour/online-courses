@@ -80,12 +80,12 @@ const Navbar = () => {
             </button>
           </div>
 
-          <ul className="flex flex-col gap-1 p-4 font-semibold">
+          <ul className="flex flex-col gap-1 font-semibold">
             {links.map((link) => (
               <li key={link.href + link.label}>
-                <Link
+                <Link 
                   href={link.href}
-                  className={`block px-6 py-5 ${
+                  className={`px-6 py-5 flex justify-between items-center border-b border-gray-200 " ${
                     link.href === "/"
                       ? pathname === "/" || pathname === "/login-register"
                         ? "bg-gray-100 text-orange-500"
@@ -97,13 +97,14 @@ const Navbar = () => {
                   onClick={() => setMenuOpen(false)}
                 >
                   {link.label}
+                  {link.icon &&<span>{link.icon}</span>}
                 </Link>
               </li>
             ))}
           </ul>
 
           {/* Search */}
-          <div className="px-4 mt-4">
+          <div className="px-5 mt-4">
             <div className="flex items-center border-b">
               <input
                 type="text"

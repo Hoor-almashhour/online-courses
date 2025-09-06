@@ -28,13 +28,13 @@ export default function CourseDetails() {
     <div className="py-[60px]">
       {/* Breadcrumb */}
       <section className="bg-gray-100 py-6">
-            <div className=" mx-6 md:mx-[70px]">
-              <p className="text-gray-500 flex items-center">
+            <div className=" max-w-full mx-6 md:mx-[70px]">
+              <p className="text-gray-500 flex items-center ">
                 Homepage <span className="mx-2"><MdChevronRight /></span>
                 <span className=" font-medium text-gray-500 flex items-center justify-center">
                   Courses 
                    <span className="mx-2"><MdChevronRight /></span>
-                  <span className="text-sm text-gray-400 md:text-lg">{course.title}</span>
+                  <span className=" text-sm text-gray-400 md:text-lg">{course.title}</span>
                 </span>
               </p>
           </div>

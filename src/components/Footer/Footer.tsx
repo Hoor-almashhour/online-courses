@@ -12,7 +12,7 @@ import {
 const Footer = () => {
   return (
      <footer className="bg-gray-100">
-      <div className="container mx-auto flex flex-wrap justify-between gap-8 py-16 px-6 md:px-0">
+      <div className="max-w-[89vw] mx-auto md:flex md:flex-row md:justify-between md:gap-8 py-16 px-6 md:px-0 flex flex-col gap-8 justify-between">
         <div className="w-full md:w-auto">
           <div className="pb-8">
             <Image src="/Img/LOGO.webp" alt="logo" width={163} height={30}  

@@ -11,11 +11,11 @@ const HeroSection  = () => {
                       md:bg-no-repeat h-[calc(100vh-72px)]
           "
           >
-          <div className="max-w-xl space-y-6 mt-16 flex justify-start flex-col items-start">
-            <h1 className="text-4xl md:text-5xl items-center font-bold text-black leading-snug">
+          <div className="flex flex-col items-center max-w-xl space-y-6 mt-16 md:flex md:justify-start  md:flex-col md:items-start">
+            <h1 className="text-center text-4xl md:text-5xl md:text-start font-bold text-black leading-snug">
               Build Skills with Online Course
             </h1>
-            <p className="text-lg text-gray-600">
+            <p className="md:text-start text-lg text-gray-600 text-center">
               We denounce with righteous indignation and dislike men who are so
               beguiled and demoralized that cannot trouble.
             </p>

@@ -69,7 +69,7 @@ export default function CoursesPage() {
         </div>
 
         {/* Courses Grid */}
-        <div className=" flex flex-wrap gap-9 md:justify-between md:items-center">
+        <div className=" flex flex-wrap items-center gap-9 md:justify-between md:items-center">
           {paginatedCourses.map((course) => (
             <div key={course.id}  className="w-full md:w-[30%]">
               <CourseCard course={course} />

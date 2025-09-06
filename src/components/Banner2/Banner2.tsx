@@ -6,7 +6,7 @@ export default function Banner2() {
   return (
     <section
       className="
-        mx-6 md:mx-25 my-18 md:rounded-3xl
+        md:mx-25 my-18 md:rounded-3xl
         bg-[url('/Banner-2/banner2.png')]
         bg-cover bg-center bg-no-repeat
       "
@@ -31,10 +31,9 @@ export default function Banner2() {
                 alt="student"
                 width={61}
                 height={72}
-                className="w-full h-auto object-cover"
               />
             </div>
-            <h4 className="ml-6 text-xl font-semibold leading-6">
+            <h4 className=" text-center ml-6 text-xl font-semibold leading-6">
               Let’s Start With Academy LMS
             </h4>
           </div>
