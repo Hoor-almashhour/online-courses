@@ -18,7 +18,7 @@ const Hero: FC<HeroProps> = ({ course }) => {
  if (!course) return null;
   return (
       <section className="max-h-[668px] bg-black text-white md:max-h-[290px]">
-          <div className="max-w-[89vw] mx-auto py-[50px] grid grid-cols-1  lg:grid-cols-3 gap-13">
+          <div className="max-w-[89vw] mx-auto py-[50px] grid grid-cols-1 lg:grid-cols-3 gap-13">
             
             {/* Left Content */}
             <div className="lg:col-span-2 flex flex-col gap-5 max-w-[563px]">
